@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		4D860FFE298CE482008FBEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D860FFD298CE482008FBEEC /* AppDelegate.swift */; };
 		4D861000298CE482008FBEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D860FFF298CE482008FBEEC /* SceneDelegate.swift */; };
-		4D861002298CE482008FBEEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861001298CE482008FBEEC /* ViewController.swift */; };
+		4D861002298CE482008FBEEC /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861001298CE482008FBEEC /* ModeSelectionViewController.swift */; };
 		4D861005298CE482008FBEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D861003298CE482008FBEEC /* Main.storyboard */; };
 		4D861007298CE486008FBEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D861006298CE486008FBEEC /* Assets.xcassets */; };
 		4D86100A298CE486008FBEEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D861008298CE486008FBEEC /* LaunchScreen.storyboard */; };
+		4D861012298D0222008FBEEC /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861011298D0222008FBEEC /* TrainingViewController.swift */; };
+		4D861014298D09C9008FBEEC /* FreePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861013298D09C9008FBEEC /* FreePlayViewController.swift */; };
+		4D861016298D0AAC008FBEEC /* WarmUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861015298D0AAB008FBEEC /* WarmUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D860FFA298CE482008FBEEC /* DrumTrainerDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumTrainerDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D860FFD298CE482008FBEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D860FFF298CE482008FBEEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D861001298CE482008FBEEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D861001298CE482008FBEEC /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
 		4D861004298CE482008FBEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D861006298CE486008FBEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D861009298CE486008FBEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D86100B298CE486008FBEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D861011298D0222008FBEEC /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		4D861013298D09C9008FBEEC /* FreePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayViewController.swift; sourceTree = "<group>"; };
+		4D861015298D0AAB008FBEEC /* WarmUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				4D860FFD298CE482008FBEEC /* AppDelegate.swift */,
 				4D860FFF298CE482008FBEEC /* SceneDelegate.swift */,
-				4D861001298CE482008FBEEC /* ViewController.swift */,
+				4D861001298CE482008FBEEC /* ModeSelectionViewController.swift */,
+				4D861011298D0222008FBEEC /* TrainingViewController.swift */,
+				4D861013298D09C9008FBEEC /* FreePlayViewController.swift */,
+				4D861015298D0AAB008FBEEC /* WarmUpViewController.swift */,
 				4D861003298CE482008FBEEC /* Main.storyboard */,
 				4D861006298CE486008FBEEC /* Assets.xcassets */,
 				4D861008298CE486008FBEEC /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D861002298CE482008FBEEC /* ViewController.swift in Sources */,
+				4D861002298CE482008FBEEC /* ModeSelectionViewController.swift in Sources */,
+				4D861014298D09C9008FBEEC /* FreePlayViewController.swift in Sources */,
+				4D861016298D0AAC008FBEEC /* WarmUpViewController.swift in Sources */,
 				4D860FFE298CE482008FBEEC /* AppDelegate.swift in Sources */,
+				4D861012298D0222008FBEEC /* TrainingViewController.swift in Sources */,
 				4D861000298CE482008FBEEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,11 +302,13 @@
 				DEVELOPMENT_TEAM = WT86C553FH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrumTrainerDemoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +316,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitrii-Melnikov.DrumTrainerDemoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +335,13 @@
 				DEVELOPMENT_TEAM = WT86C553FH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrumTrainerDemoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitrii-Melnikov.DrumTrainerDemoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
