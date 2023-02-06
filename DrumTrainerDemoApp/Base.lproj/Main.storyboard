@@ -189,12 +189,11 @@
                             <constraint firstItem="z6Q-YE-eLj" firstAttribute="centerX" secondItem="Ihk-Ht-V6c" secondAttribute="centerX" id="zC2-94-KK3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="5I6-9r-4z0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jOs-16-5Hp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="nj5-Yw-qld" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="724" y="50"/>
+            <point key="canvasLocation" x="723.1884057971015" y="49.553571428571423"/>
         </scene>
         <!--Warm Up View Controller-->
         <scene sceneID="kKO-wi-bck">
@@ -234,7 +233,6 @@
                             <constraint firstItem="vVg-zl-Ldg" firstAttribute="centerY" secondItem="ajM-gC-oQ8" secondAttribute="centerY" id="lWZ-hH-IVv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="NMg-2E-gMt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z1t-X9-J6y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="baU-qP-4oy" userLabel="Exit" sceneMemberID="exit"/>
@@ -280,7 +278,6 @@
                             <constraint firstItem="aCi-FC-oaj" firstAttribute="top" secondItem="izi-1j-2gt" secondAttribute="top" id="f6W-gI-OAT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="nEd-M6-3dc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIu-8s-fOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="399-BW-rwT" userLabel="Exit" sceneMemberID="exit"/>
