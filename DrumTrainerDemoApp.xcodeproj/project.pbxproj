@@ -16,6 +16,7 @@
 		4D861012298D0222008FBEEC /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861011298D0222008FBEEC /* TrainingViewController.swift */; };
 		4D861014298D09C9008FBEEC /* FreePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861013298D09C9008FBEEC /* FreePlayViewController.swift */; };
 		4D861016298D0AAC008FBEEC /* WarmUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D861015298D0AAB008FBEEC /* WarmUpViewController.swift */; };
+		4DF46418299233A90066CAD9 /* SectionHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46417299233A90066CAD9 /* SectionHelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4D861011298D0222008FBEEC /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		4D861013298D09C9008FBEEC /* FreePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayViewController.swift; sourceTree = "<group>"; };
 		4D861015298D0AAB008FBEEC /* WarmUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpViewController.swift; sourceTree = "<group>"; };
+		4DF46417299233A90066CAD9 /* SectionHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				4D861006298CE486008FBEEC /* Assets.xcassets */,
 				4D861008298CE486008FBEEC /* LaunchScreen.storyboard */,
 				4D86100B298CE486008FBEEC /* Info.plist */,
+				4DF46417299233A90066CAD9 /* SectionHelpViewController.swift */,
 			);
 			path = DrumTrainerDemoApp;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				4D860FFE298CE482008FBEEC /* AppDelegate.swift in Sources */,
 				4D861012298D0222008FBEEC /* TrainingViewController.swift in Sources */,
 				4D861000298CE482008FBEEC /* SceneDelegate.swift in Sources */,
+				4DF46418299233A90066CAD9 /* SectionHelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
