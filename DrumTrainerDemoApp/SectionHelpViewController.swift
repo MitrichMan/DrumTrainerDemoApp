@@ -8,8 +8,6 @@
 import UIKit
 
 class SectionHelpViewController: UIViewController {
-
-    @IBOutlet var helpTextLabel: UILabel!
     
     @IBOutlet var helpTextView: UITextView!
     override func viewDidLoad() {
